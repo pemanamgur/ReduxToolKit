@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pema and Code</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body></body>
+  <script>
+    let div = document.createElement("div");
+    // console.log(div);
+    //div.className = "mini";
+    //div.id = Math.round(Math.random() * 10 + 1);
+    //div.setAttribute("title", "generated ");
+    // div.setAttribute("class", "generated ");
+    div.style.color = "red";
+    //div.innerText = "pema and code";
+    let textNode = document.createTextNode("Pema And Coding.");
+    div.appendChild(textNode);
+    console.log(div);
+    document.body.appendChild(div);
+  </script>
+</html>
