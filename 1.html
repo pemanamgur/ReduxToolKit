@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Frist project.</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+      }
+      .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+      }
+      .box {
+        height: 12rem;
+        width: 10rem;
+        padding: 2rem;
+        margin: 1rem;
+      }
+      .red {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="red box" id="red">red</div>
+      <div class="green box" id="green">green</div>
+      <div class="blue box" id="blue">blue</div>
+      <div class="yellow box" id="yellow">yellow</div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
